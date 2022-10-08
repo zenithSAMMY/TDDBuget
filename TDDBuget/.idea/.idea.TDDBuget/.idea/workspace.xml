@@ -4,12 +4,7 @@
     <projectFile>TDDBuget/TDDBuget.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1097f0f-bdb0-494b-a1ef-b0fb111f41ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TDDBuget/BudgetService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TDDBuget/IBugetRepo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TDDBuget/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TDDBuget/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDBuget.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TDDBuget.sln" afterDir="false" />
-    </list>
+    <list default="true" id="a1097f0f-bdb0-494b-a1ef-b0fb111f41ba" name="Changes" comment="complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,8 +57,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665213864051</updated>
-      <workItem from="1665213867399" duration="5177000" />
+      <workItem from="1665213867399" duration="5483000" />
     </task>
+    <task id="LOCAL-00001" summary="complete">
+      <created>1665219357143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665219357143</updated>
+    </task>
+    <task id="LOCAL-00002" summary="complete">
+      <created>1665219390490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665219390490</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -101,6 +113,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TDDBuget/BudgetService.cs</url>
+          <line>50</line>
+          <properties documentPath="C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\BudgetService.cs" initialLine="49" containingFunctionPresentation="method 'Query'">
+            <startOffsets>
+              <option value="1479" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1548" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

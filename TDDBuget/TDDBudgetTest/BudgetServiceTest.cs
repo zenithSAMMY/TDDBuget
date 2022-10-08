@@ -68,6 +68,14 @@ public class BudgetServiceTest
         var result = service.Query(new DateTime(2022, 1, 1), new DateTime(2022, 10, 3));
         Assert.AreEqual(300, result);
     }
+    
+    [Test]
+    public void CrossYearsBudget()
+    {
+        var service = new BudgetService(new FakeCrossRepo());
+        var result = service.Query(new DateTime(2021, 10, 1), new DateTime(2022, 10, 3));
+        Assert.AreEqual(31300, result);
+    }
 }
 
 internal class FakeSingleRepo : IBudgetRepo
@@ -91,6 +99,11 @@ internal class FakeCrossRepo : IBudgetRepo
     {
         return new List<Budget>()
         {
+            new()
+            {
+                YearMonth = "202110",
+                Amount = 31000
+            },
             new()
             {
                 YearMonth = "202210",
