@@ -4,15 +4,14 @@
     <projectFile>TDDBuget/TDDBuget.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1097f0f-bdb0-494b-a1ef-b0fb111f41ba" name="Changes" comment="final">
-      <change beforePath="$PROJECT_DIR$/TDDBuget/BudgetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TDDBuget/BudgetService.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a1097f0f-bdb0-494b-a1ef-b0fb111f41ba" name="Changes" comment="fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/zenith.yang19/Documents/GitHub/TDDBuget/TDDBuget/TDDBuget/BudgetService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/zenith.yang19/Documents/GitHub/TDDBuget/TDDBuget/TDDBuget/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TDDBudgetTest/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -59,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665213864051</updated>
-      <workItem from="1665213867399" duration="5899000" />
+      <workItem from="1665213867399" duration="6345000" />
     </task>
     <task id="LOCAL-00001" summary="complete">
       <created>1665219357143</created>
@@ -82,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665219655893</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix">
+      <created>1665220273528</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665220273528</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +112,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="complete" />
     <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
