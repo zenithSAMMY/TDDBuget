@@ -1,0 +1,15 @@
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\obj\Debug\net6.0\TDDBuget.csproj.AssemblyReference.cache
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\obj\Debug\net6.0\TDDBuget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\obj\Debug\net6.0\TDDBuget.AssemblyInfoInputs.cache
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\obj\Debug\net6.0\TDDBuget.AssemblyInfo.cs
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\obj\Debug\net6.0\TDDBuget.csproj.CoreCompileInputs.cache
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\bin\Debug\net6.0\TDDBuget.exe
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\bin\Debug\net6.0\TDDBuget.deps.json
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\bin\Debug\net6.0\TDDBuget.runtimeconfig.json
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\bin\Debug\net6.0\TDDBuget.dll
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\bin\Debug\net6.0\TDDBuget.pdb
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\obj\Debug\net6.0\TDDBuget.dll
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\obj\Debug\net6.0\refint\TDDBuget.dll
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\obj\Debug\net6.0\TDDBuget.pdb
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\obj\Debug\net6.0\TDDBuget.genruntimeconfig.cache
+C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\obj\Debug\net6.0\ref\TDDBuget.dll
