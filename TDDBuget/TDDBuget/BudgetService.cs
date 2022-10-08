@@ -25,20 +25,14 @@ public class BudgetService
 
         if (start.Month == end.Month && start.Year == end.Year)
         {
+            var result = budgetData.Where(x => x.YearMonth == start.ToString("yyyyMM")).FirstOrDefault(_defaultBudget);
             if (start.Day == 1 && (end.AddDays(1).Month - start.Month) == 1)
             {
-                var result = budgetData.Where(x => x.YearMonth == start.ToString("yyyyMM")).FirstOrDefault(_defaultBudget);
-
                 return result.Amount;
             }
-            else
-            {
-                var result = budgetData.Where(x => x.YearMonth == start.ToString("yyyyMM")).FirstOrDefault(_defaultBudget);
-
-                var days = (end - start).Days + 1;
-                var total = DateTime.DaysInMonth(start.Year, start.Month);
-                return result.Amount / total * days;
-            }
+            var budgetDays = (end - start).Days + 1;
+            var daysInMonth = DateTime.DaysInMonth(start.Year, start.Month);
+            return CalculateBudget(result, daysInMonth, budgetDays);
         }
 
         var endTime = new DateTime(end.Year,end.Month,01);
@@ -57,9 +51,12 @@ public class BudgetService
         var endMonthDays = DateTime.DaysInMonth(end.Year, end.Month);
         var startDays = startMonthDays - start.Day + 1;
         var endDays = end.Day;
+        return CalculateBudget(startBudget, startMonthDays, startDays) +
+               CalculateBudget(endBudget, endMonthDays, endDays) + sum;
+    }
 
-        return (startBudget.Amount / startMonthDays * startDays) + (endBudget.Amount / endMonthDays * endDays) + sum;
-
-        return 0;
+    private static int CalculateBudget(Budget result, int daysInMonth, int budgetDays)
+    {
+        return result.Amount / daysInMonth * budgetDays;
     }
 }

@@ -4,7 +4,9 @@
     <projectFile>TDDBuget/TDDBuget.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1097f0f-bdb0-494b-a1ef-b0fb111f41ba" name="Changes" comment="complete" />
+    <list default="true" id="a1097f0f-bdb0-494b-a1ef-b0fb111f41ba" name="Changes" comment="final">
+      <change beforePath="$PROJECT_DIR$/TDDBuget/BudgetService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TDDBuget/BudgetService.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665213864051</updated>
-      <workItem from="1665213867399" duration="5483000" />
+      <workItem from="1665213867399" duration="5899000" />
     </task>
     <task id="LOCAL-00001" summary="complete">
       <created>1665219357143</created>
@@ -73,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665219390490</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final">
+      <created>1665219655893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665219655893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +105,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -106,26 +116,13 @@
           <line>18</line>
           <properties documentPath="C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\BudgetService.cs" initialLine="18" containingFunctionPresentation="method 'Query'">
             <startOffsets>
-              <option value="388" />
+              <option value="390" />
             </startOffsets>
             <endOffsets>
-              <option value="389" />
+              <option value="391" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TDDBuget/BudgetService.cs</url>
-          <line>50</line>
-          <properties documentPath="C:\Users\zenith.yang19\Documents\GitHub\TDDBuget\TDDBuget\TDDBuget\BudgetService.cs" initialLine="49" containingFunctionPresentation="method 'Query'">
-            <startOffsets>
-              <option value="1479" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1548" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
